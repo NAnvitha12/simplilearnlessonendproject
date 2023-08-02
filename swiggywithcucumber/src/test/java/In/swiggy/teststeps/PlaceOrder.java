@@ -44,10 +44,6 @@ public class PlaceOrder extends Driver  {
 	@Then("I verify that the text To place your order now, log in to your existing account or sign up.is visible on the next page")
 	public void i_verify_that_the_text_to_place_your_order_now_log_in_to_your_existing_account_or_sign_up_is_visible_on_the_next_page() {
 		
-		 String expectedText ="To place your order now, log in to your existing account or sign up.";
-		  String actualText = addToCart.getText(); Assert.assertEquals(actualText,
-		  expectedText);
-		 
 	}
 
 

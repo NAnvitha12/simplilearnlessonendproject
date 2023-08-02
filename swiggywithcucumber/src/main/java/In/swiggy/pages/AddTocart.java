@@ -33,6 +33,7 @@ public class AddTocart {
 	}
 	public void checkOut() throws InterruptedException {
 		Thread.sleep(2000);
+		System.out.println("me");
 		checkoutButton.click();
 	}
 

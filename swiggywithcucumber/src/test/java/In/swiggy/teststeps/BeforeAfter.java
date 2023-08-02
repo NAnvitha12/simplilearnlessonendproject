@@ -11,8 +11,8 @@ public class BeforeAfter extends Tools {
 		Driver.init();
 	}
 
-//	@After
-//	public void tearDown() {
-//		driver.quit();
-//	}
+	@After
+	public void tearDown() {
+		driver.quit();
+}
 }

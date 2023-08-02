@@ -14,10 +14,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HomePage {
 	private Actions actions;
 	WebDriverWait wait;
-
-	/*
-	 * @FindBy(linkText = "Other") private WebElement Other;
-	 */
 	@FindBy(id = "location")
 	private WebElement locationSearch;
 
